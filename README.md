@@ -53,4 +53,5 @@ https://challenge-09.herokuapp.com/
 * created server.js file
 * created routes and API routes
 * created DELETE requests
+* added routes folder and file
 * tested and fixed code
