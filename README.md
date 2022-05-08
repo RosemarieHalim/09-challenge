@@ -40,7 +40,7 @@ Deploy a note taking app to help business owners organize and track tasks.
 * Heroku
 
 ## Website
-https://rosemariehalim.github.io/09-challenge/
+https://challenge-09.herokuapp.com/
 
 ---
 
