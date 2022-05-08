@@ -29,13 +29,15 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 
 ## Purpose
-Quickly and easily generate a README file by using a command-line application to generate one. Allowing the project creator to devote more time working on the project.
+Deploy a note taking app to help business owners organize and track tasks.
 
 ## Built With
-* Javascript
+* HTML
+* CSS
+* JavaScript
 * Node.js
-* inquirer.js
-* axios.js
+* Express.js
+* Heroku
 
 ## Website
 https://rosemariehalim.github.io/09-challenge/
@@ -45,11 +47,10 @@ https://rosemariehalim.github.io/09-challenge/
 ## Process
 
 * planned out code
-* installed axios and inquirer
-* created required command-line questions
-* created functions to write README file
-* wrote function to initialize application
-* created link.js for function to link GitHub API
-* added functions for license badge and link
-* completed function to generate markdown
+* imported starter code
+* used module reference code
+* installed express
+* created server.js file
+* created routes and API routes
+* created DELETE requests
 * tested and fixed code
