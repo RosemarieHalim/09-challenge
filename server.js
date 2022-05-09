@@ -23,27 +23,19 @@ app.get('*', (req, res) => {
 
 app.post('/api/notes', (req, res) => {
   let note = req.body;
-  let noteList = JSON.parse(fs.readFileSync('/db/db.json', 'utf8'));
+  let noteList = JSON.parse(fs.readFileSync('./db/db.json', 'utf-8'));
   let noteLength = (noteList.length).toString();
 
   note.id = noteLength;
   noteList.push(note);
 
-  fs.writeFileSync('/db/db.json', JSON.stringify(noteList));
+  fs.writeFileSync('./db/db.json', JSON.stringify(noteList));
   res.json(noteList);
 });
 
-app.delete('/api/notes/:id', (req, res) => {
-  let noteList = JSON.parse(fs.readFileSync('/db/db.json', 'utf8'));
-  let id = (req.params.id).toString();
-
-  app.db('notes').remove({
-    id: id
-  })
-
-  fs.writeFileSync('/db/db.json', JSON.stringify(noteList));
-  res.json(noteList);
-});
+// app.delete("/api/notes/:id", function(req, res) {
+//   console.log(req.params.id)
+// });
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);

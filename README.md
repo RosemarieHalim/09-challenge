@@ -52,6 +52,5 @@ https://challenge-09.herokuapp.com/
 * installed express
 * created server.js file
 * created routes and API routes
-* created DELETE requests
-* added routes folder and file
+* tried making delete request
 * tested and fixed code
