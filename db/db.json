@@ -1,18 +1,1 @@
-{
-    "notes": [
-    {
-        "title":"Note Title 1",
-        "text":"Note text 1",
-        "id": "0"
-    },
-    {
-        "title":"Note Title 2",
-        "text":"Note text 2",
-        "id": "1"
-    },
-    {
-        "title":"Note Title 3",
-        "text":"Note text 2",
-        "id": "2"
-    }
-]}
+[{"title":"Note Title 1","text":"Note text 1","id":"0"},{"title":"Note Title 2","text":"Note text 2","id":"1"},{"title":"Note Title 3","text":"Note text 2","id":"2"},{"title":"n","text":"n","id":"3"},{"title":"m","text":"m","id":"4"},{"title":"tt","text":"tt","id":"5"}]
