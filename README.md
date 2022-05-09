@@ -1,4 +1,4 @@
-#   Challenge 09 - Professional README Generator
+#   Challenge 09 - Note Taker
 
 ##  User Story
 
